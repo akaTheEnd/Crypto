@@ -1,7 +1,7 @@
 package com.nikede.crypto.di
 
-import com.nikede.coin_feature_api.CoinFeatureApi
-import com.nikede.coin_feature_impl.CoinFeatureImpl
+import com.nikede.feature_coin_api.CoinFeatureApi
+import com.nikede.feature_coin_impl.CoinFeatureImpl
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

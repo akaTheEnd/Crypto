@@ -68,8 +68,8 @@ object Constants {
 object Modules {
     const val core = ":core"
     const val coreUi = ":core-ui"
-    const val coinFeatureApi = ":coin-feature-api"
-    const val coinFeatureImpl = ":coin-feature-impl"
+    const val coinFeatureApi = ":feature-coin-api"
+    const val coinFeatureImpl = ":feature-coin-impl"
 }
 
 object Plugins {

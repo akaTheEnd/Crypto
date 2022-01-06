@@ -7,7 +7,7 @@ import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Surface
 import androidx.navigation.compose.rememberNavController
 import com.nikede.core_ui.ui.theme.CryptoTheme
-import com.nikede.coin_feature_api.CoinFeatureApi
+import com.nikede.feature_coin_api.CoinFeatureApi
 import dagger.hilt.android.AndroidEntryPoint
 import javax.inject.Inject
 

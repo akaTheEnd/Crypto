@@ -14,7 +14,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextOverflow
-import androidx.compose.ui.unit.dp
+import com.nikede.core_ui.ui.theme.spacing
 import com.nikede.feature_coin_impl.domain.model.Coin
 
 /**
@@ -33,7 +33,7 @@ internal fun CoinListItem(
         modifier = Modifier
             .fillMaxWidth()
             .clickable { onItemClick(coin) }
-            .padding(20.dp),
+            .padding(MaterialTheme.spacing.large),
         horizontalArrangement = Arrangement.SpaceBetween
     ) {
         Text(

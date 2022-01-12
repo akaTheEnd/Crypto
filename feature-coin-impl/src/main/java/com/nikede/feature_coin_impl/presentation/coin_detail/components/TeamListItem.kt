@@ -9,7 +9,7 @@ import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.font.FontStyle
-import androidx.compose.ui.unit.dp
+import com.nikede.core_ui.ui.theme.spacing
 import com.nikede.feature_coin_impl.data.remote.dto.TeamMember
 
 /**
@@ -31,7 +31,7 @@ internal fun TeamListItem(
             text = teamMember.name,
             style = MaterialTheme.typography.h4
         )
-        Spacer(modifier = Modifier.height(4.dp))
+        Spacer(modifier = Modifier.height(MaterialTheme.spacing.small))
         Text(
             text = teamMember.position,
             style = MaterialTheme.typography.body2,

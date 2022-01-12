@@ -13,12 +13,12 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.style.TextAlign
-import androidx.compose.ui.unit.dp
 import com.google.accompanist.flowlayout.FlowRow
 import androidx.hilt.navigation.compose.hiltViewModel
 import com.nikede.feature_coin_impl.presentation.coin_detail.components.CoinTag
 import com.nikede.feature_coin_impl.presentation.coin_detail.components.TeamListItem
 import androidx.compose.foundation.lazy.items
+import com.nikede.core_ui.ui.theme.spacing
 
 /**
  * Detail of a coin screen
@@ -32,7 +32,7 @@ internal fun CoinDetailScreen(
         state.coin?.let { coin ->
             LazyColumn(
                 modifier = Modifier.fillMaxSize(),
-                contentPadding = PaddingValues(20.dp)
+                contentPadding = PaddingValues(MaterialTheme.spacing.large)
             ) {
                 item {
                     Row(
@@ -54,39 +54,39 @@ internal fun CoinDetailScreen(
                                 .weight(2f)
                         )
                     }
-                    Spacer(modifier = Modifier.height(15.dp))
+                    Spacer(modifier = Modifier.height(MaterialTheme.spacing.big))
                     Text(
                         text = coin.description,
                         style = MaterialTheme.typography.body2
                     )
-                    Spacer(modifier = Modifier.height(15.dp))
+                    Spacer(modifier = Modifier.height(MaterialTheme.spacing.big))
                     Text(
                         text = "Tags",
                         style = MaterialTheme.typography.h3
                     )
-                    Spacer(modifier = Modifier.height(15.dp))
+                    Spacer(modifier = Modifier.height(MaterialTheme.spacing.big))
                     FlowRow(
-                        mainAxisSpacing = 10.dp,
-                        crossAxisSpacing = 10.dp,
+                        mainAxisSpacing = MaterialTheme.spacing.medium,
+                        crossAxisSpacing = MaterialTheme.spacing.medium,
                         modifier = Modifier.fillMaxWidth()
                     ) {
                         coin.tags.forEach { tag ->
                             CoinTag(tag = tag)
                         }
                     }
-                    Spacer(modifier = Modifier.height(15.dp))
+                    Spacer(modifier = Modifier.height(MaterialTheme.spacing.big))
                     Text(
                         text = "Team members",
                         style = MaterialTheme.typography.h3
                     )
-                    Spacer(modifier = Modifier.height(15.dp))
+                    Spacer(modifier = Modifier.height(MaterialTheme.spacing.big))
                 }
                 items(coin.team) { teamMember ->
                     TeamListItem(
                         teamMember = teamMember,
                         modifier = Modifier
                             .fillMaxWidth()
-                            .padding(10.dp)
+                            .padding(MaterialTheme.spacing.medium)
                     )
                     Divider()
                 }
@@ -100,7 +100,7 @@ internal fun CoinDetailScreen(
                 textAlign = TextAlign.Center,
                 modifier = Modifier
                     .fillMaxWidth()
-                    .padding(horizontal = 20.dp)
+                    .padding(horizontal = MaterialTheme.spacing.large)
                     .align(Alignment.Center)
             )
         }

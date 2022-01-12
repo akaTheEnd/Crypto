@@ -9,7 +9,7 @@ import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.style.TextAlign
-import androidx.compose.ui.unit.dp
+import com.nikede.core_ui.ui.theme.spacing
 
 /**
  * View of a coin`s tag
@@ -23,11 +23,11 @@ internal fun CoinTag(
     Box(
         modifier = Modifier
             .border(
-                width = 1.dp,
+                width = MaterialTheme.spacing.extraSmall,
                 color = MaterialTheme.colors.primary,
-                shape = RoundedCornerShape(100.dp)
+                shape = RoundedCornerShape(MaterialTheme.spacing.extraLarge)
             )
-            .padding(10.dp)
+            .padding(MaterialTheme.spacing.medium)
     ) {
         Text(
             text = tag,

@@ -1,4 +1,4 @@
-package com.nikede.crypto
+package com.nikede.feature_coin_api
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("com.nikede.survey", appContext.packageName)
+        assertEquals("com.nikede.surveies_feature_api", appContext.packageName)
     }
 }

@@ -1,4 +1,4 @@
-package com.nikede.feature_coin_impl.domain.model
+package com.nikede.feature_coin_api.domain.model
 
 /**
  * Coin model

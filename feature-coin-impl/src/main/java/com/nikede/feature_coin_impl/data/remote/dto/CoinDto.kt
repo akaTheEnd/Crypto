@@ -1,7 +1,7 @@
-package com.nikede.feature_coin_impl.data.remote.dto
+package com.nikede.feature_coin_api.data.remote.dto
 
 import com.google.gson.annotations.SerializedName
-import com.nikede.feature_coin_impl.domain.model.Coin
+import com.nikede.feature_coin_api.domain.model.Coin
 
 internal data class CoinDto(
     val id: String,

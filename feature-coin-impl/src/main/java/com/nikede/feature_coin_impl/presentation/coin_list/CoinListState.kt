@@ -12,5 +12,4 @@ import com.nikede.feature_coin_impl.domain.model.Coin
 internal data class CoinListState(
     val isLoading: Boolean = false,
     val coins: List<Coin> = emptyList(),
-    val error: String = ""
-)
+    val error: String = ""

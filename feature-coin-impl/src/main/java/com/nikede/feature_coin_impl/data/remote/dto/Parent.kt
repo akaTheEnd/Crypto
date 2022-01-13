@@ -1,4 +1,4 @@
-package com.nikede.feature_coin_impl.data.remote.dto
+package com.nikede.feature_coin_api.data.remote.dto
 
 internal data class Parent(
     val id: String,

@@ -1,10 +1,10 @@
-package com.nikede.feature_coin_impl.presentation.coin_list
+package com.nikede.feature_coin_api.presentation.coin_list
 
 import androidx.compose.runtime.State
 import androidx.compose.runtime.mutableStateOf
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.nikede.feature_coin_impl.domain.use_case.get_coins.GetCoinsUseCase
+import com.nikede.feature_coin_api.domain.use_case.get_coins.GetCoinsUseCase
 import com.nikede.core.Resource
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.launchIn

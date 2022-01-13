@@ -1,4 +1,4 @@
-package com.nikede.feature_coin_impl.presentation.coin_detail
+package com.nikede.feature_coin_api.presentation.coin_detail
 
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
@@ -15,8 +15,8 @@ import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.style.TextAlign
 import com.google.accompanist.flowlayout.FlowRow
 import androidx.hilt.navigation.compose.hiltViewModel
-import com.nikede.feature_coin_impl.presentation.coin_detail.components.CoinTag
-import com.nikede.feature_coin_impl.presentation.coin_detail.components.TeamListItem
+import com.nikede.feature_coin_api.presentation.coin_detail.components.CoinTag
+import com.nikede.feature_coin_api.presentation.coin_detail.components.TeamListItem
 import androidx.compose.foundation.lazy.items
 import com.nikede.core_ui.ui.theme.spacing
 

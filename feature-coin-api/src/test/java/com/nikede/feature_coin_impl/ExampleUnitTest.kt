@@ -1,4 +1,4 @@
-package com.nikede.surveys_feature_api
+package com.nikede.feature_coin_api
 
 import org.junit.Test
 

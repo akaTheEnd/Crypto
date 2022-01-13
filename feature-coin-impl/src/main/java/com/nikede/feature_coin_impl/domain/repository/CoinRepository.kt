@@ -1,7 +1,7 @@
-package com.nikede.feature_coin_impl.domain.repository
+package com.nikede.feature_coin_api.domain.repository
 
-import com.nikede.feature_coin_impl.data.remote.dto.CoinDetailDto
-import com.nikede.feature_coin_impl.data.remote.dto.CoinDto
+import com.nikede.feature_coin_api.data.remote.dto.CoinDetailDto
+import com.nikede.feature_coin_api.data.remote.dto.CoinDto
 
 /**
  * Repository of network calls

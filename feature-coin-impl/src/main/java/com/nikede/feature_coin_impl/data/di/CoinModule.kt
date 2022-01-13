@@ -1,9 +1,9 @@
-package com.nikede.feature_coin_impl.data.di
+package com.nikede.feature_coin_api.data.di
 
-import com.nikede.feature_coin_impl.data.common.Constants
-import com.nikede.feature_coin_impl.data.remote.CoinPaprikaApi
-import com.nikede.feature_coin_impl.data.repository.CoinRepositoryImpl
-import com.nikede.feature_coin_impl.domain.repository.CoinRepository
+import com.nikede.feature_coin_api.data.common.Constants
+import com.nikede.feature_coin_api.data.remote.CoinPaprikaApi
+import com.nikede.feature_coin_api.data.repository.CoinRepositoryImpl
+import com.nikede.feature_coin_api.domain.repository.CoinRepository
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

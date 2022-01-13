@@ -1,4 +1,4 @@
-package com.nikede.feature_coin_impl.presentation
+package com.nikede.feature_coin_api.presentation
 
 /**
  * Screens of the feature

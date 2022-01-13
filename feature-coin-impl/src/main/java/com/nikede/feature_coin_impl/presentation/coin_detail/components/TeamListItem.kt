@@ -1,4 +1,4 @@
-package com.nikede.feature_coin_api.presentation.coin_detail.components
+package com.nikede.feature_coin_impl.presentation.coin_detail.components
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -10,7 +10,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.font.FontStyle
 import com.nikede.core_ui.ui.theme.spacing
-import com.nikede.feature_coin_api.data.remote.dto.TeamMember
+import com.nikede.feature_coin_impl.data.remote.dto.TeamMember
 
 /**
  * View of the team list`s item

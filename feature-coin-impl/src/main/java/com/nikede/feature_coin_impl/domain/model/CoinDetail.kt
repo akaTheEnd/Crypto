@@ -1,6 +1,6 @@
-package com.nikede.feature_coin_api.domain.model
+package com.nikede.feature_coin_impl.domain.model
 
-import com.nikede.feature_coin_api.data.remote.dto.TeamMember
+import com.nikede.feature_coin_impl.data.remote.dto.TeamMember
 
 /**
  * CoinDetail model

@@ -1,7 +1,7 @@
-package com.nikede.feature_coin_api.data.remote
+package com.nikede.feature_coin_impl.data.remote
 
-import com.nikede.feature_coin_api.data.remote.dto.CoinDetailDto
-import com.nikede.feature_coin_api.data.remote.dto.CoinDto
+import com.nikede.feature_coin_impl.data.remote.dto.CoinDetailDto
+import com.nikede.feature_coin_impl.data.remote.dto.CoinDto
 import retrofit2.http.GET
 import retrofit2.http.Path
 

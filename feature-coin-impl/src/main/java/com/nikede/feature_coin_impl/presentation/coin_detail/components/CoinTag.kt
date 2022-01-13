@@ -1,4 +1,4 @@
-package com.nikede.feature_coin_api.presentation.coin_detail.components
+package com.nikede.feature_coin_impl.presentation.coin_detail.components
 
 import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.Box

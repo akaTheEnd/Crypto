@@ -1,4 +1,4 @@
-package com.nikede.feature_coin_api.data.remote.dto
+package com.nikede.feature_coin_impl.data.remote.dto
 
 internal data class Contract(
     val contract: String,

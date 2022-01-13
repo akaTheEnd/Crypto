@@ -7,4 +7,4 @@ import dagger.hilt.android.HiltAndroidApp
  * Current application
  */
 @HiltAndroidApp
-class SurveyApp : Application()
+class CryptoApp : Application()

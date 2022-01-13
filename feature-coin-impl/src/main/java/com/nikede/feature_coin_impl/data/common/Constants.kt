@@ -1,4 +1,4 @@
-package com.nikede.feature_coin_api.data.common
+package com.nikede.feature_coin_impl.data.common
 
 /**
  * Constants for the feature

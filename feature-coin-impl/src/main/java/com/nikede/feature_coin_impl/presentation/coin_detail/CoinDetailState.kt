@@ -1,6 +1,6 @@
-package com.nikede.feature_coin_api.presentation.coin_detail
+package com.nikede.feature_coin_impl.presentation.coin_detail
 
-import com.nikede.feature_coin_api.domain.model.CoinDetail
+import com.nikede.feature_coin_impl.domain.model.CoinDetail
 
 /**
  * State of CoinDetailScreen

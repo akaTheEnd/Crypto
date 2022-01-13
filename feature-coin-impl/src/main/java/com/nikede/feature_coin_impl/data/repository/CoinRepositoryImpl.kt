@@ -1,7 +1,7 @@
-package com.nikede.feature_coin_api.data.repository
+package com.nikede.feature_coin_impl.data.repository
 
-import com.nikede.feature_coin_api.data.remote.CoinPaprikaApi
-import com.nikede.feature_coin_api.domain.repository.CoinRepository
+import com.nikede.feature_coin_impl.data.remote.CoinPaprikaApi
+import com.nikede.feature_coin_impl.domain.repository.CoinRepository
 import javax.inject.Inject
 
 internal class CoinRepositoryImpl @Inject constructor(

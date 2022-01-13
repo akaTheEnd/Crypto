@@ -1,9 +1,9 @@
-package com.nikede.feature_coin_api.domain.use_case.get_coin
+package com.nikede.feature_coin_impl.domain.use_case.get_coin
 
-import com.nikede.feature_coin_api.domain.model.CoinDetail
-import com.nikede.feature_coin_api.domain.repository.CoinRepository
+import com.nikede.feature_coin_impl.domain.model.CoinDetail
+import com.nikede.feature_coin_impl.domain.repository.CoinRepository
 import com.nikede.core.Resource
-import com.nikede.feature_coin_api.data.remote.dto.toCoinDetail
+import com.nikede.feature_coin_impl.data.remote.dto.toCoinDetail
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow
 import retrofit2.HttpException
